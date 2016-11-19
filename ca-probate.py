@@ -29,21 +29,21 @@ while True:
 while True:
     if gross_estate < 0:
         fee = 0
-    elif gross_estate < 100001:
+    elif gross_estate <= 100000:
         fee = gross_estate * .04
-    elif gross_estate < 200001:
+    elif gross_estate <= 200000:
         fee = 4000 + ((gross_estate - 100000) * .03)
-    elif gross_estate < 1000001:
+    elif gross_estate <= 1000000:
         fee = 7000 + ((gross_estate - 200000) * .02)
-    elif gross_estate < 10000001:
+    elif gross_estate <= 10000000:
         fee = 23000 + ((gross_estate - 1000000) * .01)
-    elif gross_estate < 25000001:
+    elif gross_estate <= 25000000:
         fee = 113000 + ((gross_estate - 10000000) * .005)
     else:
-        print("For an estate of this size, reasonable fees must be determined by the court.")
+        print("\nFor an estate of this size, reasonable fees must be determined by the court.")
         break
     fee = locale.currency( fee, grouping=True )
-    message = "The personal representative and the attorney for this estate are each entitled to a maximum fee of " + fee + "."
+    message = "\nThe personal representative and the attorney for this estate are each entitled to a maximum fee of " + fee + "."
     print(message)
     break    
 
