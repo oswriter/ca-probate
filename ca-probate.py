@@ -1,5 +1,5 @@
 # ca-probate -- California Probate Commissions & Attorney Fees Calculator
-# v. 1.0 (2016-11-19)
+# v. 1.0.1 (2016-11-19)
 # Based on Cal. Probate Code secs. 10800-10814.
 
 # Copyright 2016 S.M. Oliva <oswriter@skipoliva.com>

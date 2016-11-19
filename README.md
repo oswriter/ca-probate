@@ -11,7 +11,7 @@ The program asks the user to enter the value of a decedent's *gross probate esta
 This program **does not offer legal advice**. If you have any questions regarding the administration of a California estate, you should speak with a qualified probate attorney.
 
 ## Testing Notes
-This program was developed in Python 3.4.2 running on Debian 8.6 (Jessie). It was also tested successfully in Python 2.7.9.
+This program was developed in Python 3.4.2 running on Debian 8.6 (Jessie). This script will not work in Python 2.x.
 
 ## License
 © 2016 S.M. Oliva (@oswriter) and distributed under the BSD 2-Clause License.
